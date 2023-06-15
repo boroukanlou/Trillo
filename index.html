@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+
+    <title>اکورزرو &mdash; رزرو با یک کلیک</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <img src="img/logo.png" alt="logo" class="logo" />
+        <form action="#" class="search">
+          <input type="text" class="search__input" placeholder="جستجوی هتل" />
+          <button class="search__button">
+            <svg class="search__icon">
+              <use xlink:href="img/sprite.svg#icon-magnifying-glass"></use>
+            </svg>
+          </button>
+        </form>
+
+        <nav class="user-nav">
+          <div class="user-nav__icon-box">
+            <svg class="user-nav__icon">
+              <use xlink:href="img/sprite.svg#icon-bookmark"></use>
+            </svg>
+            <span class="user-nav__notification">7</span>
+          </div>
+          <div class="user-nav__icon-box">
+            <svg class="user-nav__icon">
+              <use xlink:href="img/sprite.svg#icon-chat"></use>
+            </svg>
+            <span class="user-nav__notification">13</span>
+          </div>
+          <div class="user-nav__user">
+            <img
+              src="img/shahin.jpg"
+              alt="user photo"
+              class="user-nav__user-photo"
+            />
+            <span class="user-nav__user-name">شاهین</span>
+          </div>
+        </nav>
+      </header>
+
+      <div class="content">
+        <nav class="sidebar">
+          <ul class="side-nav">
+            <li class="side-nav__item side-nav__item--active">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="img/sprite.svg#icon-home"></use>
+                </svg>
+                <span class="side-nav__text">هتل</span>
+              </a>
+            </li>
+
+            <li class="side-nav__item">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="img/sprite.svg#icon-aircraft-take-off"></use>
+                </svg>
+                <span class="side-nav__text">پرواز</span>
+              </a>
+            </li>
+
+            <li class="side-nav__item">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="img/sprite.svg#icon-key"></use>
+                </svg>
+                <span class="side-nav__text">اجاره ماشین</span>
+              </a>
+            </li>
+
+            <li class="side-nav__item">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="img/sprite.svg#icon-map"></use>
+                </svg>
+                <span class="side-nav__text">تورها</span>
+              </a>
+            </li>
+          </ul>
+
+          <div class="legal">
+            &copy; 1402 تمامی حقوق این سایت برای آژانس مسافرتی
+            <strong>اکورزرو</strong> محفوظ است.
+          </div>
+        </nav>
+
+        <main class="hotel-view">
+          <div class="gallery">
+            <figure class="gallery__item">
+              <img
+                src="img/hotel-1.jpg"
+                alt="photo of hotel 1"
+                class="gallery__photo"
+              />
+            </figure>
+
+            <figure class="gallery__item">
+              <img
+                src="img/hotel-2.jpg"
+                alt="photo of hotel 2"
+                class="gallery__photo"
+              />
+            </figure>
+
+            <figure class="gallery__item">
+              <img
+                src="img/hotel-3.jpg"
+                alt="photo of hotel 3"
+                class="gallery__photo"
+              />
+            </figure>
+          </div>
+
+          <div class="overview">
+            <h1 class="overview__heading">هتل اسپیناس پالاس</h1>
+
+            <div class="overview__stars">
+              <svg class="overview__icon">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="overview__icon">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="overview__icon">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="overview__icon">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="overview__icon">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+            </div>
+
+            <div class="overview__location">
+              <svg class="overview__icon overview__icon-location">
+                <use xlink:href="img/sprite.svg#icon-location-pin"></use>
+              </svg>
+              <button class="btn-inline">تهران، ایران</button>
+            </div>
+
+            <div class="overview__rating">
+              <div class="overview__rating--average">8.6</div>
+              <div class="overview__rating--count">492 رای</div>
+            </div>
+          </div>
+
+          <div class="detail">
+            <div class="description">
+              <p class="paragraph">
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
+                استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله
+                در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد
+                و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+              </p>
+              <p class="paragraph">
+                کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان
+                جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت است.
+              </p>
+
+              <ul class="list">
+                <li class="list__item">نزدیکی به ساحل</li>
+                <li class="list__item">صبحانه</li>
+                <li class="list__item">سرویس رایگان فرودگاه</li>
+                <li class="list__item">وای فای رایگان در تمامی اتاق‌ها</li>
+                <li class="list__item">سیستم سرمایشی و گرمایشی</li>
+                <li class="list__item">ورود حیوانات آزاد</li>
+                <li class="list__item">ما به تمام زبان‌ها صحبت میکنیم</li>
+                <li class="list__item">مناسب برای خانواده</li>
+              </ul>
+              <div class="recommend">
+                <p class="recommend__count">
+                  شیما و <span>3</span> نفر دیگر این هتل را پیشنهاد می‌کنند.
+                </p>
+                <div class="recommend__friends">
+                  <img
+                    src="img/user-3.jpg"
+                    alt="Friend 1"
+                    class="recommend__photo"
+                  />
+                  <img
+                    src="img/user-4.jpg"
+                    alt="Friend 2"
+                    class="recommend__photo"
+                  />
+                  <img
+                    src="img/user-5.jpg"
+                    alt="Friend 3"
+                    class="recommend__photo"
+                  />
+                  <img
+                    src="img/user-6.jpg"
+                    alt="Friend 4"
+                    class="recommend__photo"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="user-review">
+              <figure class="review">
+                <blockquote class="review__text">
+                  چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم
+                  است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع
+                  با هدف بهبود ابزارهای کاربردی می باشد.
+                </blockquote>
+                <figcaption class="review__user">
+                  <img
+                    src="img/user-1.jpg"
+                    alt="User 1"
+                    class="review__photo"
+                  />
+                  <div class="review__user-box">
+                    <p class="review__user-name">حسام احمدی</p>
+                    <p class="review__user-date">25 خرداد، 1402</p>
+                  </div>
+                  <div class="review__rating">7.8</div>
+                </figcaption>
+              </figure>
+
+              <figure class="review">
+                <blockquote class="review__text">
+                  چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم
+                  است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع
+                  با هدف بهبود ابزارهای کاربردی می باشد.
+                </blockquote>
+                <figcaption class="review__user">
+                  <img
+                    src="img/user-2.jpg"
+                    alt="User 2"
+                    class="review__photo"
+                  />
+                  <div class="review__user-box">
+                    <p class="review__user-name">زهرا محسنی</p>
+                    <p class="review__user-date">24 خرداد، 1402</p>
+                  </div>
+                  <div class="review__rating">9.3</div>
+                </figcaption>
+              </figure>
+
+              <button class="btn-inline">
+                ادامه مطالب <span>&larr;</span>
+              </button>
+            </div>
+          </div>
+          <div class="cta">
+            <h2 class="cta__book-now">
+              خبر خوب! <span>4</span> اتاق خالی برای تاریخ مورد نظر یافت شد!
+            </h2>
+            <button class="btn">
+              <span class="btn__visible">رزرو کن</span>
+              <span class="btn__invisible">اتاق خالی: 4</span>
+            </button>
+          </div>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>
